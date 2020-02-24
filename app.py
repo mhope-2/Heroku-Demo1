@@ -63,7 +63,7 @@ with open(pkl_filename, 'rb') as file:
 class Response(Resource):
 	def post(self):
 
-		posted_data = request.get_json()
+		posted_data = request.get_json(force=True)
 		query = posted_data["query"]
 		prediction = list(clf2.predict(count_vect.transform([query])))
 		pred = ''.join(prediction)
