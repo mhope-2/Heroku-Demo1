@@ -69,7 +69,11 @@ class Response(Resource):
 		pred = ''.join(prediction)
 
 		ret_json = {
-			"Response": pred
+			"myQuerry": [
+				{
+				"Response": pred
+				}
+			]
 		}
 		return jsonify(ret_json)
 
