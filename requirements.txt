@@ -57,7 +57,7 @@ dask==2.1.0
 decorator==4.4.1
 defusedxml==0.6.0
 distributed==2.1.0
-Django==2.2.7
+Django==2.2.10
 dnspython==1.16.0
 docutils==0.14
 entrypoints==0.3
