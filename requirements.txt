@@ -5,6 +5,7 @@ Click==7.0
 Flask==1.1.1
 Flask-RESTful==0.3.8
 google-pasta==0.1.7
+gunicorn>=0.14.2
 itsdangerous==1.1.0
 Jinja2==2.11.1
 joblib==0.14.1
