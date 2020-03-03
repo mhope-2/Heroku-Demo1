@@ -67,6 +67,14 @@ with open(pkl_filename, 'rb') as file:
 
 class Response(Resource):
 
+	def get(self):
+
+		ret_json = {
+			"success": True,
+			"Response": "Predicted Response"
+		}
+		return jsonify(ret_json)
+
 	def post(self):
 
 		posted_data = request.get_json(force=True)
