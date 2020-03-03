@@ -67,13 +67,13 @@ with open(pkl_filename, 'rb') as file:
 
 class Response(Resource):
 
-# 	def get(self):
+	def get(self):
 
-# 		ret_json = {
-# 			"success": True,
-# 			"Response": "Predicted Response"
-# 		}
-# 		return jsonify(ret_json)
+		ret_json = {
+			"success": True,
+			"Response": "Predicted Response"
+		}
+		return jsonify(ret_json)
 
 	def post(self):
 
@@ -95,9 +95,10 @@ class Response(Resource):
 
 	   
 
+# api.add_resource(Response, "/response")
 api.add_resource(Response, "/response")
 
 
 
 if __name__ == '__main__':
-	app.run(debug=False)
+	app.run(debug=True)
