@@ -77,25 +77,26 @@ class Response(Resource):
 
 	def post(self):
 
-		posted_data = request.get_json(force=True)
-		query = posted_data["query"]
+		# posted_data = request.get_json(force=True)
+		# query = posted_data["query"]
 		# time_stamp = datetime.datetime.now()
+
+		query = request.form['query']
 
 		prediction = list(clf2.predict(count_vect.transform([query])))
 		pred = ''.join(prediction)
-		success = True
-		
+	
 
 		ret_json = {
-			"success": success,
+			"success": True,
 			"Response": pred
 			}
 		return jsonify(ret_json)
 
 	   
 
+# api.add_resource(Response, "/response")
 api.add_resource(Response, "/response")
-api.init_app(app)
 
 
 
