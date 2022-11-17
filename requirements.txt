@@ -8,7 +8,7 @@ google-pasta==0.1.7
 gunicorn>=0.14.2
 itsdangerous==1.1.0
 Jinja2==2.11.1
-joblib==0.14.1
+joblib==1.2.0
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 Markdown==3.1.1
