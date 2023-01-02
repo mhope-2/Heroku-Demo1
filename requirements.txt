@@ -6,7 +6,7 @@ Flask==1.1.1
 Flask-RESTful==0.3.8
 google-pasta==0.2.0
 gunicorn>=0.14.2
-itsdangerous==1.1.0
+itsdangerous==2.1.2
 Jinja2==2.11.3
 joblib==1.2.0
 Keras-Applications==1.0.8
