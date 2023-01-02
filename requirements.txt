@@ -27,4 +27,4 @@ termcolor==1.1.0
 Werkzeug==1.0.0
 wincertstore==0.2
 wrapt==1.11.2
-xlrd==1.2.0
+xlrd==2.0.1
