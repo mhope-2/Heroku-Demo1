@@ -2,7 +2,7 @@ aniso8601==8.0.0
 astor==0.8.0
 certifi==2022.12.7
 Click==7.0
-Flask==1.1.1
+Flask==2.2.5
 Flask-RESTful==0.3.8
 google-pasta==0.2.0
 gunicorn>=0.14.2
