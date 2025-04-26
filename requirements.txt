@@ -27,6 +27,7 @@ termcolor==1.1.0
 Werkzeug==3.0.3
 wincertstore==0.2
 wrapt==1.11.2
+xlrd==2.0.1
 xlrd==1.2.0
 absl-py==2.1.0
 aniso8601==9.0.1
