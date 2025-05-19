@@ -3,7 +3,7 @@ astor==0.8.0
 certifi==2024.7.4
 Click==7.0
 Flask==2.2.5
-Flask-RESTful==0.3.8
+Flask-RESTful==0.3.10
 google-pasta==0.2.0
 gunicorn>=0.14.2
 itsdangerous==2.2.0
