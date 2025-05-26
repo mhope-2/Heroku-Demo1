@@ -12,7 +12,7 @@ joblib==1.5.0
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 Markdown==3.1.1
-MarkupSafe==2.1.5
+MarkupSafe==3.0.2
 numpy==1.24.1
 pandas==1.0.1
 protobuf==3.18.3
@@ -47,7 +47,7 @@ joblib==1.5.0
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 Markdown==3.8
-MarkupSafe==2.1.5
+MarkupSafe==3.0.2
 numpy==2.0.1
 packaging==24.2
 pandas==2.2.3
