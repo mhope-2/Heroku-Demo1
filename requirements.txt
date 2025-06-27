@@ -51,7 +51,7 @@ MarkupSafe==2.1.5
 numpy==2.0.1
 packaging==24.2
 pandas==2.2.3
-protobuf==4.25.8
+protobuf==6.31.1
 python-dateutil==2.9.0
 pytz==2024.1
 scikit-learn==1.6.1
