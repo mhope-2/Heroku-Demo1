@@ -12,7 +12,7 @@ joblib==1.2.0
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 Markdown==3.8.1
-MarkupSafe==2.1.5
+MarkupSafe==3.0.3
 numpy==2.4.6
 pandas==2.2.2
 protobuf==7.35.0
@@ -23,8 +23,8 @@ scipy==1.14.0
 six==1.17.0
 tensorboard==2.20.0
 tensorflow-estimator==2.15.0
-termcolor==2.4.0
+termcolor==3.3.0
 Werkzeug==3.1.6
 wincertstore==0.2
 wrapt==1.16.0
-xlrd==2.0.1
+xlrd==2.0.2
