@@ -19,7 +19,7 @@ protobuf==7.35.0
 python-dateutil==2.9.0
 pytz==2024.1
 scikit-learn==1.5.1
-scipy==1.14.0
+scipy==1.18.0
 six==1.17.0
 tensorboard==2.20.0
 tensorflow-estimator==2.15.0
